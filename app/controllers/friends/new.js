@@ -10,7 +10,7 @@ export default Ember.Controller.extend({
       return !Ember.isEmpty(this.get('model.email')) &&
         !Ember.isEmpty(this.get('model.firstName')) &&
         !Ember.isEmpty(this.get('model.lastName')) &&
-        !Ember.isEmpty(this.get('model.twitter'))
+        !Ember.isEmpty(this.get('model.twitter'));
     }
   ),
   actions: {
@@ -21,7 +21,7 @@ export default Ember.Controller.extend({
           _this.transitionToRoute('friends.show', friend);
         });
       } else {
-        this.set('errorMessage', 'You have to fill in all of the fields.')
+        this.set('errorMessage', 'You have to fill in all of the fields.');
       }
       return false;
     },
