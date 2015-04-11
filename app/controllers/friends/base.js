@@ -5,7 +5,7 @@ export default Ember.Controller.extend({
     'model.email',
     'model.firstName',
     'model.lastName',
-    'twitter',
+    'model.twitter',
     function() {
       return !Ember.isEmpty(this.get('model.email')) &&
           !Ember.isEmpty(this.get('model.firstName')) &&
