@@ -3,29 +3,29 @@
   <p>{{model.firstName}}</p>
   <p>{{model.lastName}}</p>
 </div>
-<form {{action "save" on="submit"}}>
+<form {{action "save" on="submit"}} class="form-group">
   <h2>{{errorMessage}}</h2>
   <p>
     <label>First Name:
-      {{input value=model.firstName}}
+      {{input value=model.firstName placeholder="First Name"}}
     </label>
   </p>
   <p>
     <label>Last Name:
-      {{input value=model.lastName}}
+      {{input value=model.lastName placeholder="Last Name"}}
     </label>
   </p>
   <p>
     <label>Email:
-      {{input value=model.email}}
+      {{input value=model.email placeholder="Email"}}
     </label>
   </p>
   <p>
     <label>Twitter:
-      {{input value=model.twitter}}
+      {{input value=model.twitter placeholder="Twitter"}}
     </label>
   </p>
-  <input type="submit" value="Save"/>
-  <button {{action "cancel"}}>Cancel</button>
+  <input type="submit" value="Save" class="btn btn-primary" />
+  <button {{action "cancel"}} class="btn btn-danger">Cancel</button>
 </form>
 
