@@ -17,4 +17,5 @@ export default Router.map(function() {
       path: ':friend_id/edit'
     });
   });
+  this.resource('articles', function() {});
 });
