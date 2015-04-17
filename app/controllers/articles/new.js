@@ -17,6 +17,9 @@ export default Ember.Controller.extend({
         this.set('errorMessage', 'You have to fill in all of the fields');
       }
       return true;
+    },
+    cancel: function() {
+      this.transitionTo('articles');
     }
   }
 });
