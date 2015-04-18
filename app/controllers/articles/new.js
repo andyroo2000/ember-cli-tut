@@ -19,7 +19,7 @@ export default Ember.Controller.extend({
       return true;
     },
     cancel: function() {
-      this.transitionTo('articles');
+      this.transitionToRoute('articles');
     }
   }
 });
