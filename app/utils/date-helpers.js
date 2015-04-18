@@ -1,5 +1,5 @@
 function formatDate(date, format) {
-  return window.moment(date).formate(format);
+  return window.moment(date).format(format);
 }
 
 export {
