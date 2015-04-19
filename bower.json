@@ -12,8 +12,6 @@
     "ember-qunit": "0.3.0",
     "ember-qunit-notifications": "0.0.7",
     "qunit": "~1.17.1",
-    "bootstrap": "~3.3.2",
-    "moment": "~2.10.2",
-    "borrowers-dates": "~0.0.1"
+    "bootstrap": "~3.3.2"
   }
 }
